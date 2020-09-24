@@ -8,7 +8,7 @@
 }
 
 #background {
-  background-color: lightgrey;
+  background-color: #f5f8fa;
   height: 60px;
 }
 
@@ -103,9 +103,9 @@ li {
   margin-left: 15px;
 }
 
-/* Regole Header principale */
+/* Regole Sezione principale */
 
-header {
+section {
   position: relative;
 }
 
@@ -127,14 +127,13 @@ header {
 }
 
 
-
 #br {
   margin-top: -30px;
 }
 
 
 .caption-header p {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .HubSpot-center {
@@ -151,4 +150,37 @@ header {
   display: block;
   font-size: 10px;
   margin-top: 15px;
+}
+
+/* regole prima parte sezione secondaria */
+
+#section-color {
+  background-color: #f5f8fa;
+  top: 292px;
+}
+
+.section-second {
+  content: "";
+  display: table;
+  clear: both;
+  width: 60%;
+  margin: auto;
+  color: #33475b;
+}
+
+#cube {
+  display: block;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+h4 {
+  text-align: center;
+}
+
+.section-second p {
+  text-align: center;
+  font-size: 12px;
 }
