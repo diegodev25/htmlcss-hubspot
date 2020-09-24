@@ -69,6 +69,36 @@ svg {
   padding: 5px;
 }
 
+/* fine regole blocco di ricerca e login */
+
 hr {
   border: 1px solid black;
+}
+
+/* regole Logo e menu */
+.logo-menu {
+  content: "";
+  display: table;
+  clear: both;
+  width: 60%;
+  margin: auto;
+}
+
+#logo {
+  float: left;
+  width: 100px;
+  height: 30px;
+  margin-top: 15px;
+}
+
+.menu {
+  float: right;
+}
+
+li {
+  display: inline-block;
+  color: #33475b;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-left: 15px;
 }
