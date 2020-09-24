@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Baloo Tammudu 2'
 
 }
 
@@ -28,15 +29,18 @@ header {
 
 svg {
   float: left;
+  margin-top: 10px;
   width: 15px;
   height: 15px;
   color: #33475b;
 }
 
 .text {
+  float: left;
   font-size: 12px;
   color: #33475b;
-  margin-left: 5px;
+  margin-top: 8px;
+  margin-left: 10px;
 }
 
 /* regole blocco di ricerca e login */
@@ -50,9 +54,9 @@ svg {
   font-size: 12px;
   background-color: white;
   color: #ff7a59;
-  margin-left: 10px;
+  margin-left: 12px;
   border-radius: 2px;
-  padding: 8px;
+  padding: 5px;
   border: 1px solid #ffbcac;
 }
 
@@ -62,7 +66,7 @@ svg {
   color: white;
   margin-left: 10px;
   border-radius: 2px;
-  padding: 8px;
+  padding: 5px;
 }
 
 hr {
