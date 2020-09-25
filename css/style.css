@@ -66,7 +66,7 @@ svg {
   color: white;
   margin-left: 10px;
   border-radius: 2px;
-  padding: 3px;
+  padding: 6px;
 }
 
 /* fine regole blocco di ricerca e login */
@@ -141,7 +141,7 @@ section {
   background-color: #ff7a59;
   color: white;
   border-radius: 5px;
-  padding: 8px;
+  padding: 6px;
   margin-top: 10px;
 
 }
@@ -156,7 +156,7 @@ section {
 
 #section-color {
   background-color: #f5f8fa;
-  top: 292px;
+  top: 280px;
 }
 
 .section-second {
@@ -184,3 +184,77 @@ h4 {
   text-align: center;
   font-size: 12px;
 }
+
+/* regole seconda parte sezione secondaria */
+
+.block-CRM {
+  position: relative;
+  content: "";
+  display: table;
+  clear: both;
+  color: #33475b;
+  background-color: white;
+  width: 60%;
+  height: 400px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px #000000;
+  margin: 30px auto 0px auto;
+}
+
+#crm-img {
+  width: auto;
+  margin-left: 180px;
+  margin-top: 100px;
+  height: 120px;
+}
+
+.button-learn {
+  text-align: center;
+  background-color: #ff7a59;
+  width: 9%;
+  margin-left: 200px;
+  color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding-top: 7px;
+
+}
+
+
+.block-text-CRM h4 {
+  font-size: 24px;
+  text-align: center;
+  margin-left: -120px;
+  margin-top: -200px;
+}
+
+.block-text-CRM p {
+  margin-left: 510px;
+
+}
+
+.block-text-CRM span {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 510px;
+  margin-top: 20px;
+}
+
+.block-text-CRM hr {
+  float: right;
+  border-color: #33475b;
+  margin-right: 170px;
+  margin-top: 40px;
+  width: 30%;
+}
+
+.block-text-CRM ul {
+  margin-left: 510px;
+}
+
+.block-text-CRM li {
+  float: left;
+  font-size: 16px;
+}
+
+/* Regole sezione colonne */
