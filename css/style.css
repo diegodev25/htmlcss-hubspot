@@ -156,6 +156,7 @@ section {
 
 main {
   background-color: #f5f8fa;
+  height: 1900px;
 }
 
 #section-color {
@@ -179,7 +180,7 @@ main {
   margin-top: 40px;
 }
 
-h4 {
+h3 {
   text-align: center;
 }
 
@@ -271,7 +272,6 @@ h4 {
 .Marketing-hub {
   float: left;
   position: relative;
-  max-height: 700px;
   width: calc((100% / 3) - 350px);
   background-color: white;
   color: #33475b;
@@ -282,7 +282,7 @@ h4 {
 
 #img-marketing {
   display: block;
-  width: 34%;
+  width: 35%;
   margin: 30px auto 15px auto;
 }
 
@@ -323,12 +323,254 @@ h4 {
 
 #img-sales {
   display: block;
-  width: 43%;
+  width: 44%;
   margin: 30px auto 15px auto;
 }
 
 #img-service {
   display: block;
-  width: 31%;
+  width: 32%;
   margin: 30px auto 15px auto;
+}
+
+/* regole sezione statistiche */
+
+#background-static {
+  background-image: linear-gradient(45deg, #00A4BD, #00BDA5);
+  min-height: 850px;
+  padding-top: 35px;
+}
+
+.static-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.static-container h1 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-bottom: -25px;
+}
+
+
+.static-container p {
+  text-align: center;
+  color: white;
+  margin: 35px 0px -40px 0px;
+}
+
+.hotspot-gr {
+  width: 60%;
+  margin: 100px auto;
+  border-bottom: 1px solid white;
+}
+
+/* regole primo blocco statistiche */
+
+.hotspot-border {
+  display: inline-block;
+  width: 25%;
+  height: 220px;
+  border-right: 1px solid white;
+}
+
+.hotspot-gr svg {
+  display: block;
+  color: white;
+  width: 100%;
+  height: 40px;
+  margin: 20px auto -5px auto;
+}
+
+.hotspot-gr span {
+  margin-left: 125px;
+  color: white;
+  font-size: 32px;
+}
+
+#text-hotspot {
+  display: block;
+  font-size: 12px;
+  margin-top: -25px;
+  margin-left: 100px;
+}
+
+/* regole secondo blocco statistiche */
+
+#img-hubspot-glb {
+  display: block;
+  width: 27%;
+  margin: 20px auto -5px auto;
+}
+
+#text-hotspot-2 {
+  display: block;
+  font-size: 12px;
+  margin-top: -25px;
+  margin-left: 118px;
+}
+
+/* regole terzo blocco statistiche */
+
+.hotspot-border-3 {
+  display: inline-block;
+  width: 25%;
+  height: 220px;
+  border-right: 1px solid white;
+}
+
+
+#img-hubspot-acd  {
+  display: block;
+  width: 41%;
+  margin: 28px auto -5px auto;
+}
+
+#text-3th {
+  margin-left: 105px;
+  font-size: 32px;
+}
+
+#text-hotspot-3 {
+  display: block;
+  font-size: 12px;
+  margin-top: -26px;
+  margin-left: 90px;
+}
+
+/* regole quarto blocco statistiche */
+
+.hotspot-border-4 {
+  display: inline-block;
+  width: 24%;
+  height: 220px;
+}
+
+#img-inboud {
+  display: block;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+#text-4th {
+  margin-left: 118px;
+  font-size: 32px;
+}
+
+#text-hotspot-4 {
+  display: block;
+  font-size: 12px;
+  margin-top: -26px;
+  margin-left: 94px;
+}
+
+/* regole primo blocco statistiche 2 */
+
+.hotspot-gr-down {
+  width: 60%;
+  margin: -115px auto auto auto;
+}
+
+.hotspot-border-1-second {
+  display: inline-block;
+  width: 25%;
+  height: 220px;
+  padding-top: 40px;
+  border-right: 1px solid white;
+}
+
+.hotspot-gr-down img {
+  display: block;
+  width: 60%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.hotspot-gr-down span {
+  margin-left: 125px;
+  color: white;
+  font-size: 32px;
+}
+
+#text-hotspotcnt {
+  display: block;
+  font-size: 12px;
+  margin-top: -25px;
+  margin-left: 125px;
+}
+
+/* regole secondo blocco statistiche 2 */
+
+.hotspot-border-2-second {
+  display: inline-block;
+  width: 25%;
+  height: 220px;
+  padding-top: 40px;
+  border-right: 1px solid white;
+}
+
+
+#img-world {
+  display: block;
+  width: 16%;
+  margin: auto;
+}
+
+#text-1st-second {
+  margin-left: 135px;
+  font-size: 32px;
+}
+
+#text-lang {
+  display: block;
+  font-size: 12px;
+  margin-top: -25px;
+  margin-left: 125px;
+}
+
+/* regole terzo blocco statistiche 2 */
+
+.hotspot-border-3-second {
+  display: inline-block;
+  padding-top: 40px;
+  width: 25%;
+  height: 220px;
+  border-right: 1px solid white;
+}
+
+#img-social {
+  display: block;
+  width: 16%;
+  margin: auto;
+}
+
+#text-2nd-second {
+  margin-left: 115px;
+  font-size: 32px;
+}
+
+#text-social {
+  display: block;
+  font-size: 12px;
+  margin-top: -25px;
+  margin-left: 115px;
+}
+
+/* regole quarto blocco statistiche 2 */
+
+.hotspot-border-4-second {
+  display: inline-block;
+  width: 24%;
+  height: 220px;
+}
+
+
+#img-growthhub {
+  display: block;
+  width: 16%;
+  margin: auto;
 }
